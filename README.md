@@ -24,7 +24,7 @@ $ forge build
 ### Test
 
 ```shell
-$ forge test
+$ forge test --fork-url $FORK_URL --match-path test/UniswapV2SwapAmounts.t.sol -vvv
 ```
 
 ### Format
